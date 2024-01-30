@@ -1,0 +1,95 @@
+.body{
+    background-color: aqua;
+    color: black;
+}
+
+.teste{
+    color: pink;
+}
+
+.deus{
+    background-color: #008B8B;
+    color: #A9A9A9;
+}
+
+#header{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    opacity: 0.2 ;
+    position:relative;
+    width: 100%;
+   
+}
+
+
+a:link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+a:hover{
+    background-color: 	#DAA520;
+    color: white;
+}
+
+#area-principal {
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+   
+}
+
+#area-postagens, #area-lateral{
+    background-color:orange;
+    color: white;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: green;
+    padding: 20px;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, .1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out;
+}
+
+.dropdown > .link:focus + .dropdown-menu{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #777;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+}
